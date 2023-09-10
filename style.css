@@ -19,11 +19,11 @@ body {
 .biginfo {
     background-color: hsl(0, 0%, 100%);
         width: 65%;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         align-items: center;
         flex-direction: row;
-        gap: 20px;
+        gap: 50px;
         border-radius: 1rem;
         padding-left: 30px;
         cursor: pointer;
@@ -34,8 +34,10 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: hsl(243, 100%, 62%);
-    width: 30%;
-    height: 80vh;
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+    background-size: cover;
+    width: 32%;
+    height: 90vh;
     cursor: pointer;
     border-radius: 1rem;
     position: relative;
@@ -72,10 +74,45 @@ body {
     color: hsl(229, 24%, 87%);
 }
 
-.biginfoleft div {
+.infotin {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    background-color: linear-gradient(to bottom, hsl(243, 100%, 62%));
+    flex-direction: column;
+    height: 70%;
+    gap: 10px;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    color: hsl(213, 96%, 18%);
+}
+
+.infop {
+    display: flex;
+    flex-direction: column;
+    color: hsl(231, 11%, 63%);
+}
+
+.infotin h4 {
+    color: hsl(213, 96%, 18%);
+}
+
+.info-two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.infobox {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border: 2px solid hsl(231, 11%, 63%);
+    border-radius: 5px;
+    color: hsl(231, 11%, 63%);
+}
+
+.infobtn {
+    display: flex;
 }
