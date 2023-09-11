@@ -77,9 +77,9 @@ body {
 .infotin {
     display: flex;
     flex-direction: column;
-    height: 70%;
+    height: 80%;
+    width: 50%;
     gap: 10px;
-    border: 1px solid red;
     padding-bottom: 20px;
 }
 
@@ -101,18 +101,40 @@ body {
 .info-two {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .infobox {
     display: flex;
     width: 100%;
     height: 40px;
-    border: 2px solid hsl(231, 11%, 63%);
+    border: ipx solid hsl(225, 20%, 96%);
     border-radius: 5px;
-    color: hsl(231, 11%, 63%);
+}
+
+.infobox:hover {
+    border: 3px solid hsl(213, 96%, 18%);
 }
 
 .infobtn {
     display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    margin: 40px 15px;
+}
+
+.infobtnbtn {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 120px;
+        outline: none;
+        border: none;
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
 }
