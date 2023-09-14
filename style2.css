@@ -9,7 +9,7 @@ body {
     padding: 40px 0;
 }
 
-.biginfoctn {
+.biginfoctntwo {
     display: flex;
     justify-content: center;
     padding: 80px 0;
@@ -18,15 +18,15 @@ body {
 
 .biginfo {
     background-color: hsl(0, 0%, 100%);
-        width: 65%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        gap: 50px;
-        border-radius: 1rem;
-        padding-left: 30px;
-        cursor: pointer;
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    border-radius: 1rem;
+    padding-left: 30px;
+    cursor: pointer;
 }
 
 .biginfoleft {
@@ -74,67 +74,78 @@ body {
     color: hsl(229, 24%, 87%);
 }
 
-.infotin {
+.infotintwo {
     display: flex;
     flex-direction: column;
     height: 80%;
-    width: 50%;
+    width: 60%;
     gap: 10px;
+    margin-right: 20px;
     padding-bottom: 20px;
 }
 
 .info {
     display: flex;
+    font-size: 2.5rem;
     color: hsl(213, 96%, 18%);
 }
 
 .infop {
     display: flex;
     flex-direction: column;
+    font-size: 16px;
     color: hsl(231, 11%, 63%);
 }
 
-.infotin h4 {
-    color: hsl(213, 96%, 18%);
+.inforight {
+    display: flex;
+    gap: 40px;
 }
 
-.info-two {
+.inforightbox {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.inforightbox h5 {
+    display: flex;
+    color: hsl(213, 96%, 18%);
+    font-size: 16px;
+       letter-spacing: 1px;
+}
+
+.infoarcade {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-
-.infobox {
-    display: flex;
-    width: 100%;
-    height: 40px;
-    border: 1px solid hsl(231, 11%, 63%);
-    border-radius: 5px;
-}
-
-.infobox:hover {
-    border: 1px solid hsl(213, 96%, 18%);
-}
-
-.infobtn {
-    display: flex;
-    align-items: center;
-    justify-content: right;
+    justify-content: left;
     gap: 10px;
-    margin: 40px 15px;
+    padding: 20px 30px;
+    border: 1px solid hsl(213, 96%, 18%);
+    position: relative;
+    border-radius: 1rem;
+    cursor: pointer;
 }
-
-.infobtnbtn {
+.infoadvanced {
     display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 40px;
-        width: 120px;
-        outline: none;
-        border: none;
-        background-color: hsl(213, 96%, 18%);
-        color: white;
-        border-radius: 10px;
-        font-size: 15px;
-        cursor: pointer;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    padding: 20px 30px;
+    border: 1px solid hsl(213, 96%, 18%);
+    position: relative;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.infopro {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    padding: 20px 30px;
+    border: 1px solid hsl(213, 96%, 18%);
+    position: relative;
+    border-radius: 1rem;
+    cursor: pointer;
 }
